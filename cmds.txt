@@ -1,0 +1,9 @@
+ld
+deps-available 4g8
+transitive-dep-solution libzydis-dev
+how-to-install 3depict
+enq-verify bash
+enq-verify 0ad
+enq-verify libc6 28
+execute
+quit

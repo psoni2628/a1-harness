@@ -1,0 +1,18 @@
+Packages available: 63846
+Packages installed: 3775
+Package 4g8:
+- dependency "libc6 (>= 2.4)"
++ libc6 satisfied by installed version 2.33-1
+- dependency "libnet1 (>= 1.1.2.1)"
+-> not satisfied
+- dependency "libpcap0.8 (>= 0.9.8)"
++ libpcap0.8 satisfied by installed version 1.10.1-4
+"libzydis-dev" transitive dependency solution: "libzycore-dev, libzydis3.2, libzycore1.1, libc6, libgcc-s1, gcc-11-base"
+Package 3depict:
+"3depict" to install: "libftgl2, libgsl27, libmgl7.6.0, libgslcblas0, libhdf4-0, libhpdf-2.3.0, libmgl-data"
+queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/bash/5.1-6
+queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/0ad/0.0.25b-1.1
+queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/libc6/28
+verifying bash, matches: true
+verifying 0ad, matches: true
+got error 404 on request for package libc6 version 28
